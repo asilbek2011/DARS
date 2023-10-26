@@ -1,0 +1,57 @@
+.do__h4 {
+    text-align: center;
+    color: #3D3D3F;
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.do__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.do__h1 {
+    flex-direction: column;
+    width: 160px;
+height: 27px;
+color: #3D3D3F;
+text-align: center;
+font-family:"DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+.do__text {
+    width: 147px;
+height: 20px;
+color: #999;
+text-align: center;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+.do__img {
+    text-align: center;
+    width: 132px;
+height: 38px;
+margin: 0 auto;
+}
+@media only screen and (max-width:718px) {
+    .do__list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:492px) {
+    .do__list {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+}

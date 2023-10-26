@@ -1,0 +1,32 @@
+.mom__info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mom__heading{
+    text-align: center;
+}
+
+.mom{
+    margin-top: 100px;
+}
+
+.mom__list{
+    margin-left: 28px;
+}
+
+@media only screen and (max-width: 885px){
+    .mom__info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mom__text{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .mom__info{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
